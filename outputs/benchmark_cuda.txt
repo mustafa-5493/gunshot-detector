@@ -1,0 +1,5 @@
+Device: cuda
+batch=1 | avg=1.204ms | std=0.207ms | throughput=831 samples/s
+batch=8 | avg=3.795ms | std=0.174ms | throughput=2108 samples/s
+batch=32 | avg=12.518ms | std=0.160ms | throughput=2556 samples/s
+batch=64 | avg=27.634ms | std=0.339ms | throughput=2316 samples/s
