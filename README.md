@@ -53,7 +53,7 @@ This project was developed on an **NVIDIA GTX 1050 Mobile (4GB VRAM)** by delibe
 | Class imbalance | Inverse-frequency weighting | Gunshots are 4.3% of dataset — weighting prevents the model ignoring them |
 
 **Peak VRAM during training: 1,228MB out of 4,096MB (30% utilization)**  
-This means the model could run on even more constrained edge hardware — a Jetson Nano, an embedded surveillance unit, or a drone payload computer.
+This means the model could run on even more constrained edge hardware — e.g an embedded surveillance unit.
 
 ---
 
