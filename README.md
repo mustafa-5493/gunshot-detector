@@ -36,7 +36,7 @@ Output: [P(non-gunshot), P(gunshot)]
 ```
 
 **Parameters:** 782,082  
-**Why CNN and not LSTM/Transformer:** Spectrograms are images. CNNs find spatial patterns in images. Treating audio as a 2D representation is more sample-efficient and faster to train than raw sequence modeling — a deliberate architectural choice, not a default.
+**Why CNN and not LSTM/Transformer:** Spectrograms are images. CNNs find spatial patterns in images. Treating audio as a 2D representation is more sample-efficient and faster to train than raw sequence modeling.
 
 ---
 
