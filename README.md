@@ -206,4 +206,4 @@ gunshot-detector/
 
 ---
 
-*Trained from scratch. No pretrained weights or cloud GPUs were used.*
+
