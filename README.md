@@ -1,6 +1,6 @@
 # GunshotCNN — Acoustic Threat Detection on Edge Hardware
 
-A CNN trained from scratch on UrbanSound8K to classify gunshots against ambient urban sound. Built on a GTX 1050 laptop (4GB VRAM), which forced some concrete hardware-aware design decisions around memory, precision, and class imbalance. Inference was benchmarked against an Apple M4 for comparison.
+A CNN trained from scratch on UrbanSound8K to classify gunshots against ambient urban sound. Built on a GTX 1050 laptop (4GB VRAM), which forced some concrete hardware-aware design decisions around memory, precision, and class imbalance. Inference was benchmarked against an Apple Silicon M4 for comparison.
 
 
 
