@@ -8,7 +8,7 @@ A CNN trained from scratch on UrbanSound8K to classify gunshots against ambient 
 
 ## The Problem
 
-Gunshot detection is one of the most time-critical tasks an acoustic surveillance system can perform. This project asks: how capable can a threat detector be when constrained to hardware that could realistically be deployed at the edge?
+Gunshot detection is a key capability of acoustic surveillance systems. This project asks: how capable can a threat detector be when constrained to hardware that could realistically be deployed at the edge?
 
 The answer: 99.88% accuracy, AUC 1.000, zero missed gunshots — using just 1,228MB of the 4GB VRAM available on an NVIDIA GTX 1050.
 
