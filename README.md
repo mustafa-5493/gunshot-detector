@@ -40,7 +40,7 @@ Output: [P(non-gunshot), P(gunshot)]
 
 ---
 
-##Hardware Setup
+## Hardware Setup
 
 This project was developed on an NVIDIA GTX 1050 Mobile (4GB VRAM) by deliberate choice. An Apple M4 MacBook was available throughout. The constraint was self-imposed to simulate edge deployment conditions and force hardware-aware design decisions.
 
