@@ -124,7 +124,7 @@ The codebase automatically detects and adapts to available hardware — no manua
 
 ### Setup
 ```bash
-git clone https://github.com/YOUR_USERNAME/gunshot-detector.git
+git clone https://github.com/mustafa-5493/gunshot-detector.git
 cd gunshot-detector
 pip install torch torchaudio librosa numpy pandas matplotlib seaborn scikit-learn tqdm
 
