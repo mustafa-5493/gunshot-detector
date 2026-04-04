@@ -114,9 +114,9 @@ The trained model was benchmarked on two fundamentally different hardware backen
 | 32 | 12.518 ± 0.160 | 13.224 ± 3.494 | CUDA |
 | 64 | 27.634 ± 0.339 | 19.000 ± 1.609 | **MPS** |
 
-**Finding:** CUDA wins at small batch sizes due to lower per-sample latency. MPS wins at large batch sizes — Apple's unified memory architecture scales better at high throughput. For real-time single-sample surveillance inference, CUDA on the GTX 1050 is the faster deployment target. For batch processing of recorded audio, the M4 becomes competitive.
+**Finding:** CUDA wins at small batch sizes due to lower per-sample latency. MPS wins at large batch sizes , Apple's unified memory architecture scales better at high throughput. For real-time single-sample surveillance inference, CUDA on the GTX 1050 is the faster deployment target. For batch processing of recorded audio, the M4 becomes competitive.
 
-The codebase automatically detects and adapts to available hardware — no manual configuration required when switching between machines.
+The codebase automatically detects and adapts to available hardware , no manual configuration required when switching between machines.
 
 ---
 
